@@ -1,0 +1,22 @@
+{
+  "name": "liquidation-candidates-identifier",
+  "version": "1.0.0",
+  "description": "Event Collectorのデータを使用してRisk Moduleクエリで精算対象者を特定するツール",
+  "main": "liquidation-candidates-identifier.js",
+  "scripts": {
+    "start": "node liquidation-candidates-identifier.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "ethers": "^6.0.0",
+    "csv-parser": "^3.0.0"
+  },
+  "keywords": [
+    "liquidation",
+    "morpho",
+    "defi",
+    "risk-management"
+  ],
+  "author": "",
+  "license": "MIT"
+}
