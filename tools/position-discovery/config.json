@@ -1,0 +1,16 @@
+{
+  "network": {
+    "name": "Hyper EVM",
+    "chainId": 999,
+    "rpcUrl": "https://hyperliquid.drpc.org",
+    "nativeToken": "HYPE"
+  },
+  "contracts": {
+    "positionManager": {
+      "address": "0xE019Ce6e80dFe505bca229752A1ad727E14085a4"
+    }
+  },
+  "scanning": {
+    "batchSize": 500
+  }
+}

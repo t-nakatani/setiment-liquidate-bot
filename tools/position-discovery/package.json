@@ -1,0 +1,27 @@
+{
+  "name": "position-discovery",
+  "version": "2.0.0",
+  "description": "イベント取得に特化したPositionDeployedスキャナー - 関心事分離による改良版",
+  "main": "src/cli/ScanPositions.js",
+  "bin": {
+    "scan-positions": "src/cli/ScanPositions.js"
+  },
+  "scripts": {
+    "start": "node src/cli/ScanPositions.js",
+    "scan": "node src/cli/ScanPositions.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum", 
+    "events", 
+    "scanner", 
+    "position", 
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ethers": "^6.14.4"
+  }
+}
