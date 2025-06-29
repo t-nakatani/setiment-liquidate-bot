@@ -1,0 +1,28 @@
+{
+  "network": {
+    "name": "Hyper EVM",
+    "chainId": 999,
+    "rpcUrl": "https://rpc.hypurrscan.io",
+    "nativeToken": "HYPE"
+  },
+  "contracts": {
+    "positionManager": {
+      "address": "0xE019Ce6e80dFe505bca229752A1ad727E14085a4",
+      "deploymentBlock": 0
+    }
+  },
+  "scanning": {
+    "batchSize": 10000,
+    "maxRetries": 3,
+    "retryDelay": 100000,
+    "rpcRequestInterval": 300,
+    "defaultStartBlock": 0,
+    "outputFormats": ["json", "csv"]
+  },
+  "events": {
+    "PositionDeployed": {
+      "topic": "0x",
+      "signature": "PositionDeployed(address,address,address)"
+    }
+  }
+}

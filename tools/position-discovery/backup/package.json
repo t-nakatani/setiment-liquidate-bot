@@ -1,0 +1,16 @@
+{
+  "name": "position-discovery",
+  "version": "1.0.0",
+  "description": "PositionManagerが発行する`PositionDeployed`イベントを過去に遡って発見するツールです。",
+  "main": "position-deployed-scanner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ethers": "^6.14.4"
+  }
+}
